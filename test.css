@@ -1,0 +1,23 @@
+@import url(/);
+a {
+  background: url(1234567890);
+}
+
+
+a {
+  background: url("1234567890");
+}
+
+a {
+  background: url('1234"asdf"567890');
+}
+
+
+a {
+  background: url('/1234"asdf"567890');
+}
+
+a {
+  background: url(httP://1234567890);
+}
+
